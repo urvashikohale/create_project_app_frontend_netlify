@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/create_project_app_frontend_netlify/static/css/main.28264176.css",
+    "main.js": "/create_project_app_frontend_netlify/static/js/main.4fb2ee20.js",
+    "index.html": "/create_project_app_frontend_netlify/index.html",
+    "main.28264176.css.map": "/create_project_app_frontend_netlify/static/css/main.28264176.css.map",
+    "main.4fb2ee20.js.map": "/create_project_app_frontend_netlify/static/js/main.4fb2ee20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28264176.css",
+    "static/js/main.4fb2ee20.js"
+  ]
+}
