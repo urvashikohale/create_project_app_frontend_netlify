@@ -1,11 +1,12 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "homepage": "https://urvashikohale.github.io/create_project_app_frontend_netlify",
   "private": true,
   "engines": {
     "npm": "8.19.2",
     "node": "18.12.1"
-    },
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -18,6 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
