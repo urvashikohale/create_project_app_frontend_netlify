@@ -6,6 +6,7 @@ const Preview = ({ selectedFile }) => {
       <img
         src={selectedFile ? URL.createObjectURL(selectedFile) : "./default.png"}
         className="previewImage"
+        alt="previewImage"
       />
     </div>
   );
